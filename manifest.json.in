@@ -1,0 +1,15 @@
+{
+    "architecture": "@CLICK_ARCH@",
+    "description": "A simple Unity scope that accesses local content",
+    "framework": "ubuntu-sdk-14.10-dev2",
+    "hooks": {
+        "trakt": {
+            "apparmor": "trakt.apparmor",
+            "scope": "trakt"
+        }
+    },
+    "maintainer": "Giulio Collura <giulio.collura@gmail.com>",
+    "name": "com.ubuntu.developer.gcollura.trakt-scope",
+    "title": "trakt-scope",
+    "version": "0.1"
+}
